@@ -1,5 +1,5 @@
 {
-  "name": "gitfetch",
+  "name": "fetchgit",
   "version": "1.0.0",
   "description": "Easily download files and directories from a GitHub repository.",
   "main": "dist/index.js",
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tr1ckydev/gitfetch.git"
+    "url": "git+https://github.com/tr1ckydev/fetchgit.git"
   },
   "keywords": [
     "github",
@@ -23,9 +23,9 @@
   "author": "tr1ckydev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tr1ckydev/gitfetch/issues"
+    "url": "https://github.com/tr1ckydev/fetchgit/issues"
   },
-  "homepage": "https://github.com/tr1ckydev/gitfetch#readme",
+  "homepage": "https://github.com/tr1ckydev/fetchgit#readme",
   "devDependencies": {
     "bun-types": "latest",
     "runtimey": "^0.0.1"

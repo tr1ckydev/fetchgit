@@ -1,4 +1,4 @@
-# gitfetch
+# fetchgit
 Easily download files and directories from a GitHub repository.
 
 - Works in Node.JS, Bun and Deno.
@@ -12,7 +12,7 @@ Easily download files and directories from a GitHub repository.
 Recursively fetches the directory for all the files and subdirectories inside.
 
 ```ts
-import { fetchDirectory } from "gitfetch";
+import { fetchDirectory } from "fetchgit";
 
 await fetchDirectory({
     repo: "chalk/chalk",
@@ -28,7 +28,7 @@ await fetchDirectory({
 If `path` isn't provided, it will fetch the entire repository.
 
 ```ts
-import { fetchDirectory } from "gitfetch";
+import { fetchDirectory } from "fetchgit";
 
 await fetchDirectory({
     repo: "tr1ckydev/hyperimport",
@@ -47,7 +47,7 @@ await fetchDirectory({
 *(Requires destination directory to be created already.)*
 
 ```ts
-import { fetchFile } from "gitfetch";
+import { fetchFile } from "fetchgit";
 
 await fetchFile({
     repo: "oven-sh/bun",
@@ -67,4 +67,4 @@ If `branch` isn't provided, the default branch name of the repository is fetched
 
 ## License
 
-This repository uses MIT license. See [LICENSE](https://github.com/tr1ckydev/gitfetch/blob/main/LICENSE) for full license text.
+This repository uses MIT license. See [LICENSE](https://github.com/tr1ckydev/fetchgit/blob/main/LICENSE) for full license text.
