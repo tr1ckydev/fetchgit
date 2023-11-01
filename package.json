@@ -1,0 +1,33 @@
+{
+  "name": "gitfetch",
+  "version": "1.0.0",
+  "description": "Easily download files and directories from a GitHub repository.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && bun build --minify --target=node --outfile=dist/index.js index.ts"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tr1ckydev/gitfetch.git"
+  },
+  "keywords": [
+    "github",
+    "clone",
+    "download",
+    "fetch"
+  ],
+  "author": "tr1ckydev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tr1ckydev/gitfetch/issues"
+  },
+  "homepage": "https://github.com/tr1ckydev/gitfetch#readme",
+  "devDependencies": {
+    "bun-types": "latest",
+    "runtimey": "^0.0.1"
+  }
+}
