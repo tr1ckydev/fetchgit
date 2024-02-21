@@ -21,6 +21,8 @@ await fetchDirectory({
 });
 ```
 
+Set `basedir_only` to `true` if you only want to create the directory without the parent sub-directories of path.
+
 
 
 ### Fetching an entire repository
